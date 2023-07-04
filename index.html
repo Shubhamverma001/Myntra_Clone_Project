@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid left flex">
+            <img src="data:image/png;base64,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" alt="">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/men"><b>MEN</b></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://www.myntra.com/shop/women"><b>WOMEN</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.myntra.com/shop/kids"><b>KIDS</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.myntra.com/shop/home-living"><b>HOME AND LIFESTYLE</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.myntra.com/personal-care"><b>BEAUTY</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.myntra.com/studio/home?appRoute=%7B%22url%22%3A%22%2Fstudio%2Fhome%22%7D" tabindex="-1" aria-disabled="true"><b>STUDIO</b></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><b>Search</b></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="Section1">
+        <img class="img1" src="https://cdn.flipshope.com/blog/wp-content/uploads/2022/12/Myntra-Year-End-Bash.jpg" alt="Unable to load image">
+      </div>
+      <br>
+      <br>
+      <div class="container-fluid">
+        <img class="img2" src="https://www.findprix.com/blog/wp-content/uploads/2022/03/Myntra-End-Of-Reason-Sale-1024x326.jpg" alt="">
+      </div>
+      <br>
+      <br>
+      <div class="app">
+          <p><b>Experience Myntra app on:</b></p>
+          <div class="down">
+              <a href="https://play.google.com/store/apps/details?id=com.myntra.android&hl=en_IN&gl=US&pli=1"><img class="down" src="data:image/png;base64,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"></a>
+          </div>
+     </div>
+     <br>
+     <br>
+     <div class="new container-fluid">
+        <p><b>For Query Contact us at:-</b></p>
+        <p><b>EMAIL ID:</b>myntra@customercare.co.in</p>
+        <p><b>PHONE NO.:</b>011-22327247</p>
+     </div>
+     <br><br>
+     <div class="doc">
+        <p><b>ONLINE SHOPPING MADE EASY AT MYNTRA</b><br>
+            If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.
+            <br><br><b>MYNTRA APP</b>
+            <br>Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your Android or IOS device today and experience shopping like never before!
+            <br><br>
+            <b>HISTORY OF MYNTRA</b><br>
+            Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized gifts was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.
+            <br><br>
+            The Myntra shopping app came into existence in the year 2015 to further encourage customers’ shopping sprees. Download the app on your Android or IOS device this very minute to experience fashion like never before
+            <br>
+            SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE
+            Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 30-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.
+           </p>
+     </div>
+</body>
+</html>
